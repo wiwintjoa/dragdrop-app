@@ -3,7 +3,7 @@ const start = {
   draggableId: "answer-1",
   type: "TYPE",
   source: {
-    droppableId: "column-1",
+    droppableId: "column-answer",
     index: 0,
   },
 };
@@ -12,7 +12,7 @@ const start = {
 const update = {
   ...start,
   destination: {
-    droppableId: "column-1",
+    droppableId: "column-answer",
     index: 1,
   },
 };

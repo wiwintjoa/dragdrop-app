@@ -3,11 +3,11 @@ const result = {
   type: "TYPE",
   reason: "DROP",
   source: {
-    droppableId: "column-1",
+    droppableId: "column-answer",
     index: 0,
   },
   destination: {
-    droppableId: "column-1",
+    droppableId: "column-answer",
     index: 1,
   },
 };

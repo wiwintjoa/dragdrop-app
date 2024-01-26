@@ -1,7 +1,7 @@
 // Draggable
 const draggableSnapshot = {
   isDragging: true,
-  draggingOver: "column-1",
+  draggingOver: "column-answer",
 };
 
 // Droppable

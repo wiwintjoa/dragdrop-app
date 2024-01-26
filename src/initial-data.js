@@ -6,18 +6,18 @@ const initialData = {
     "answer-4": { id: "answer-4", content: "Learn the Language" },
   },
   columns: {
-    "column-1": {
-      id: "column-1",
+    "column-answer": {
+      id: "column-answer",
       title: "Answers",
       answerIds: ["answer-1", "answer-2", "answer-3", "answer-4"],
     },
-    "column-2": {
-      id: "column-2",
+    "column-question": {
+      id: "column-question",
       title: "Questions",
       answerIds: [],
     },
   },
-  columnOrder: ["column-1", "column-2"],
+  columnOrder: ["column-question", "column-answer"],
 };
 
 export default initialData;
